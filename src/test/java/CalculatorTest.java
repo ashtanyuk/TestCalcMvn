@@ -23,7 +23,7 @@ public class CalculatorTest {
 
     @org.junit.Test
     public void div() throws Exception {
-        assertEquals(1,Calculator.div(2,2));
+        assertEquals(2,Calculator.div(2,2));
 
     }
 
