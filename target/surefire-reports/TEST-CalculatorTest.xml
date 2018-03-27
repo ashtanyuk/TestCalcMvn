@@ -6,7 +6,7 @@
     <property name="java.vm.version" value="25.73-b02"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/anton/Documents/Работа/НИИТ/Java/TestCalcMvn"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/anton/tmp/Java/TestCalcMvn"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/anton/Documents/Работа/НИИТ/Java/TestCalcMvn"/>
+    <property name="user.dir" value="/Users/anton/tmp/Java/TestCalcMvn"/>
     <property name="java.runtime.version" value="1.8.0_73-b02"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/endorsed"/>
@@ -62,8 +62,8 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="CalculatorTest" name="add" time="0.005"/>
+  <testcase classname="CalculatorTest" name="add" time="0.004"/>
   <testcase classname="CalculatorTest" name="div" time="0"/>
-  <testcase classname="CalculatorTest" name="mul" time="0"/>
+  <testcase classname="CalculatorTest" name="mul" time="0.001"/>
   <testcase classname="CalculatorTest" name="sub" time="0"/>
 </testsuite>
