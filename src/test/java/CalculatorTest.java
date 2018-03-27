@@ -1,7 +1,7 @@
 import static org.junit.Assert.*;
 
 /**
- * Created by anton on 24.01.18.
+ * Created on 27.03.18.
  */
 public class CalculatorTest {
     @org.junit.Test
