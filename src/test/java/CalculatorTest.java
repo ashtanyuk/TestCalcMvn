@@ -26,5 +26,11 @@ public class CalculatorTest {
         assertEquals(1,Calculator.div(2,2));
 
     }
+	
+	@org.junit.Test(expected = ArithmeticException.class)  
+    public void div0() {
+        int result = Calc.div(5,0);
+        //assertEquals(0, result);
+    }
 
 }
