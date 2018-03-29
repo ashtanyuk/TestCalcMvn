@@ -3,6 +3,7 @@ import static org.junit.Assert.*;
 /**
  * Created by anton on 24.01.18.
  */
+
 public class CalculatorTest {
     @org.junit.Test
     public void add() throws Exception {
