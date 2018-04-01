@@ -6,7 +6,7 @@ import static org.junit.Assert.*;
 public class CalculatorTest {
     @org.junit.Test
     public void add() throws Exception {
-        assertEquals(4,Calculator.add(2,2));
+        assertEquals(5,Calculator.add(2,3));
     }
 
     @org.junit.Test
