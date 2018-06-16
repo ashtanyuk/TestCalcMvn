@@ -27,8 +27,9 @@ public class CalculatorTest {
 
     }
     
-    @org.junit.Test(timeout=10)
+    @org.junit.Test(timeout=100)
     public void divZero() throws Exception {
        Calculator.div(2,2);
 
+}
 }
