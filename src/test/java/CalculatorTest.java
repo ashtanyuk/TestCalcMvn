@@ -20,9 +20,20 @@ public class CalculatorTest {
         assertEquals(4,Calculator.mul(2,2));
 
     }
+    
+    @org.junit.Test(timeout = 10)
+    public void mulTime() throws Exception {
+        assertEquals(4,Calculator.mul(2,2));
+    }
 
     @org.junit.Test
     public void div() throws Exception {
+        assertEquals(1,Calculator.div(2,2));
+
+    }
+    
+    @org.junit.Test(expected = ArithmeticException.class)
+    public void divZero() throws Exception {
         assertEquals(1,Calculator.div(2,2));
 
     }
