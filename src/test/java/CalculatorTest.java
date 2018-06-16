@@ -37,7 +37,5 @@ public class CalculatorTest {
         assertEquals(1,Calculator.div(2,2));
 
     }
-    
-}
 
 }
