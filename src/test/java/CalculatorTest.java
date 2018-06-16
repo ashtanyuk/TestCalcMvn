@@ -26,5 +26,10 @@ public class CalculatorTest {
         assertEquals(1,Calculator.div(2,2));
 
     }
+    
+    @org.junit.Test(timeout=100)
+    public void divZero() throws Exception {
+       Calculator.div(2,2);
 
+}
 }
