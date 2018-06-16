@@ -26,5 +26,12 @@ public class CalculatorTest {
         assertEquals(1,Calculator.div(2,2));
 
     }
+    @org.junit.Test(timeout = 1000)
+    public void divTime() throws Exception{
+        for(int i = 0; i < 1000000; i++){
+           Calculator.div(512513232351251.2 * i, 41241323224124.0);
+        }
+
+    }
 
 }
