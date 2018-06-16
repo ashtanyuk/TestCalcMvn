@@ -29,7 +29,7 @@ public class CalculatorTest {
     @org.junit.Test(timeout = 1000)
     public void divTime() throws Exception{
         for(int i = 0; i < 1000000; i++){
-           Calculator.div(512513232351251.2 * i, 41241323224124.0);
+           Calculator.div(123, 45);
         }
 
     }
