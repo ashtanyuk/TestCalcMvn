@@ -8,7 +8,7 @@ public class CalculatorTest {
     public void add() throws Exception {
         assertEquals(4,Calculator.add(2,2));
     }
-
+    //test
     @org.junit.Test
     public void sub() throws Exception {
         assertEquals(0,Calculator.sub(2,2));
