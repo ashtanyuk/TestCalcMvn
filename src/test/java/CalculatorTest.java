@@ -1,4 +1,4 @@
-import static org.junit.Assert.*;
+}import static org.junit.Assert.*;
 
 /**
  * Created by anton on 24.01.18.
@@ -35,5 +35,5 @@ public class CalculatorTest {
             System.out.println(z);
         }
     }
-
 }
+
