@@ -1,4 +1,4 @@
-import static org.junit.Assert.*;
+}import static org.junit.Assert.*;
 
 /**
  * Created by anton on 24.01.18.
@@ -26,5 +26,14 @@ public class CalculatorTest {
         assertEquals(1,Calculator.div(2,2));
 
     }
-
+    
+    @org.junit.Test (timeout = 10)
+    public void divTime() throws Exception {
+        int z;
+        for(int i =0; i<10; i++) {
+            z = Calc.div(1 * i, 1);
+            System.out.println(z);
+        }
+    }
+}
 }
