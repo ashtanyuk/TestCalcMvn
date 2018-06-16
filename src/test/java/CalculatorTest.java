@@ -26,5 +26,9 @@ public class CalculatorTest {
         assertEquals(1,Calculator.div(2,2));
 
     }
+    @org.junit.Test
+    public void mul() throws Exception {
+        assertEquals(6,Calculator.mul(3,2));
 
+    }
 }
