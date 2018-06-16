@@ -26,5 +26,10 @@ public class CalculatorTest {
         assertEquals(1,Calculator.div(2,2));
 
     }
+    @org.junit.Test(timeout = 10)
+        ublic void timeZero() {
+                assertEquals(1.0,Calc.timeZero(154564.0,4564564.0),0.001);
+        
+    }
 
 }
