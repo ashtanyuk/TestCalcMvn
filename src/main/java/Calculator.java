@@ -6,7 +6,7 @@ public class Calculator {
         return x+y;
     }
     public static int sub(int x,int y) {
-        return x*y;
+        return x-y;
     }
     public static int mul(int x,int y) {
         return x*y;
